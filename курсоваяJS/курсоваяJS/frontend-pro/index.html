@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/choices.min.css"> 
+    <link rel="stylesheet" href="css/style.css">
+    <title>CRM-SKB</title>
+</head>
+
+<body>
+
+    <div class="crm-container">
+        <div class="modal"></div>
+        <div class="crm-header-search"><img src="img/LOGO.svg" alt="Logo" class="header-logo"><input type="text"
+                class="header-search-input" placeholder="Введите запрос"></div>
+        <div class="crm-main-block">
+            <h2 class="crm-titel">Клиенты</h2>
+            <table class="crm-main-table">
+                <tr class="table-major-row">
+                    <th class="major-row-item">ID <svg class="major-item-svg" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.49691e-07 4L0.705 4.705L3.5 1.915L3.5 8L4.5 8L4.5 1.915L7.29 4.71L8 4L4 -3.49691e-07L3.49691e-07 4Z" fill="#9873FF"/>
+                        </svg>
+                        </th>
+                    <th class="major-row-item">Фамилия Имя Отчесво <svg class="major-item-svg" width="8" height="8" viewBox="0 0 8 8"
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 4L7.295 3.295L4.5 6.085L4.5 0L3.5 0L3.5 6.085L0.71 3.29L0 4L4 8L8 4Z"
+                                fill="#9873FF" />
+                        </svg> <spnan class="major-item-span">А-Я</spnan></th>
+                    <th class="major-row-item">Дата и время создания <svg class="major-item-svg" width="8" height="8" viewBox="0 0 8 8"
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 4L7.295 3.295L4.5 6.085L4.5 0L3.5 0L3.5 6.085L0.71 3.29L0 4L4 8L8 4Z"
+                                fill="#9873FF" />
+                        </svg>
+                    </th>
+                    <th class="major-row-item">Последние изменения <svg class="major-item-svg" width="8" height="8" viewBox="0 0 8 8"
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 4L7.295 3.295L4.5 6.085L4.5 0L3.5 0L3.5 6.085L0.71 3.29L0 4L4 8L8 4Z"
+                                fill="#9873FF" />
+                        </svg>
+                    </th>
+                    <th class="major-row-item">Контакты</th>
+                    <th class="major-row-item">Действия</th>
+                    <th class="major-row-item"></th>
+                </tr>
+
+            </table>
+            <button type="button" class="crm-btn"><svg width="23" height="16" viewBox="0 0 23 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M14.5 8C16.71 8 18.5 6.21 18.5 4C18.5 1.79 16.71 0 14.5 0C12.29 0 10.5 1.79 10.5 4C10.5 6.21 12.29 8 14.5 8ZM5.5 6V3H3.5V6H0.5V8H3.5V11H5.5V8H8.5V6H5.5ZM14.5 10C11.83 10 6.5 11.34 6.5 14V16H22.5V14C22.5 11.34 17.17 10 14.5 10Z"
+                        fill="#9873FF" />
+                </svg>Добавить клиента</button>
+
+            <form class="crm-add-modal" name="add-modal-form" action="#">
+
+                <h3 class="crm-modal-title" id="new-modal-title" ></h3>
+                
+                <div class="crm-modal-close"></div>
+
+                <span class="first-star">*</span><span class="second-star">*</span>
+                <span class="form-surname-span form-descr-inpt">Фамилия</span>
+                <input class="crm-add-modal-inpt " type="text"  placeholder="Фамилия">
+                <span class="form-name-span form-descr-inpt">Имя</span>
+                <input class="crm-add-modal-inpt" type="text" placeholder="Имя">
+                <span class="form-lastname-span form-descr-inpt">Отчесво</span>
+                <input class="crm-add-modal-inpt" type="text" placeholder="Отчество">
+
+                <div class="crm-add-modal-selects"></div>
+                
+        <button class="crm-modal-btnAdd"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M6.99998 3.66671C6.63331 3.66671 6.33331 3.96671 6.33331 4.33337V6.33337H4.33331C3.96665 6.33337 3.66665 6.63337 3.66665 7.00004C3.66665 7.36671 3.96665 7.66671 4.33331 7.66671H6.33331V9.66671C6.33331 10.0334 6.63331 10.3334 6.99998 10.3334C7.36665 10.3334 7.66665 10.0334 7.66665 9.66671V7.66671H9.66665C10.0333 7.66671 10.3333 7.36671 10.3333 7.00004C10.3333 6.63337 10.0333 6.33337 9.66665 6.33337H7.66665V4.33337C7.66665 3.96671 7.36665 3.66671 6.99998 3.66671ZM6.99998 0.333374C3.31998 0.333374 0.333313 3.32004 0.333313 7.00004C0.333313 10.68 3.31998 13.6667 6.99998 13.6667C10.68 13.6667 13.6666 10.68 13.6666 7.00004C13.6666 3.32004 10.68 0.333374 6.99998 0.333374ZM6.99998 12.3334C4.05998 12.3334 1.66665 9.94004 1.66665 7.00004C1.66665 4.06004 4.05998 1.66671 6.99998 1.66671C9.93998 1.66671 12.3333 4.06004 12.3333 7.00004C12.3333 9.94004 9.93998 12.3334 6.99998 12.3334Z"
+                fill="#9873FF" />
+        </svg>
+        Добавить контакт</button>
+        <span class="modal-error-message"></span>
+    <button class="crm-modal-btnSave" type="submit">Сохранить</button>
+    <a href="" class="crm-modal-btnCancel"></a>
+                
+            </form>
+            <div class="crm-delete-modal">
+                <h3 class="crm-modal-title" id="delete-modal-title">Удалить клиента</h3>
+                <div class="crm-modal-close" id="delete-modal-close"></div>
+                <p class="delete-modal-paragraph">Вы действительно хотите удалить данного клиента?</p>
+                <button type="button" id="delete-modal-btn" class="crm-modal-btnSave">Удалить</button><a href="" class="crm-modal-btnCancel">Отмена</a>
+            </div>
+        </div>
+        
+    </div>
+    <script src="js/choices.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/dataFile.js"></script>
+    
+</body>
+
+</html>
