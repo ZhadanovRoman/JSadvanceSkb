@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS10</title>
+  <link rel="stylesheet" src="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+<div class="form-div" style="display: flex; justify-content: space-around;">
+  <form action="" class="form-input" style="width: 30%;  margin-bottom: 3%;">
+    <h2>Записать студента</h2>
+    <div class="form-group form-group-div">
+      <label class="labels" for="surname">Фамилия</label>
+      <input data-surname="true" id="surname" class="form-control input-form-control" placeholder="Фамилия" type="text">
+      <span></span>
+    </div>
+
+    <div class="form-group form-group-div">
+      <label class="labels" for="name">Имя</label>
+      <input data-name="true" id="name" class="form-control input-form-control" placeholder="Имя" type="text">
+      <span></span>
+    </div>
+
+    <div class="form-group form-group-div">
+      <label class="labels" for="lastname">Отчество</label>
+      <input data-lastname="true" id="lastname" class="form-control input-form-control" placeholder="Отчество" type="text">
+      <span></span>
+    </div>
+
+    <div class="form-group form-group-div">
+      <label class="labels" for="facultet">Факультет</label>
+      <input data-facultet="true" id="facultet" class="form-control input-form-control" type="text" placeholder="Факультет">
+      <span></span>
+    </div>
+
+    <div class="form-group form-group-div">
+      <label class="labels-berthday" for="input-birthday">Дата рождения</label>
+      <input data-birthday="true" id="input-birthday" min="1900-01-01" max="2023-01-01" class="form-control input-form-control" placeholder="дата" type="date">
+      <span></span>
+    </div>
+
+    <div class="form-group form-group-div">
+      <label class=" label-study" for="input-study">Год зачисления в ВУЗ</label>
+      <input data-year-study="4" id="input-study" class="form-control input-form-control" placeholder="Год зачисления в ВУЗ"
+        type="text">
+        <span></span>
+    </div>
+
+    <button type="submit" id="btn" class="btn btn-primary">Submit</button>
+  </form>
+
+  <form action="" class="form-search" style="width: 30%;  margin-bottom: 3%;">
+       <h2>Поиск студента</h2>
+    <div class="form-group">
+      <label class="labels" for="FIO-filter">Фамилия Имя Отчество</label>
+      <input data-field="surname,name,lastname" id="FIO-filter" class="form-control search-fio" placeholder="Фамилия" type="text">
+    </div>
+
+    <div class="form-group">
+      <label class="labels" for="facultet-filter">Факультет</label>
+      <input data-field="facultet" id="facultet-filter" class="form-control search-facultet" type="text" placeholder="Факультет">
+    </div>
+
+    <div class="form-group">
+      <label class="labels-berthday" for="birthday-filter">Дата рождения</label>
+      <input data-field="birthday" id="birthday-filter" min="1900-01-01" max="2023-01-01" class="form-control search-birthday" placeholder="дата" type="date">
+    </div>
+
+    <div class="form-group">
+      <label class=" label-study" for="study-filter">Год зачисления в ВУЗ</label>
+      <input data-field="yearStudy"  id="study-filter" class="form-control search-study" placeholder="Год зачисления в ВУЗ"
+        type="text">
+    </div>
+
+  </form>
+</div>
+
+
+  <table class="table" style="width: 80%;margin: 0 auto;">
+    <thead class="thead-dark">
+      <tr>
+        <th class="th" scope="col" data-sort-field="surname">ФИО</th>
+        <th class="th" scope="col" data-sort-field="facultet">Факультет </th>
+        <th class="th" scope="col" data-sort-field="birthday">ДР и возраст</th>
+        <th class="th" scope="col" data-sort-field="yearStudy">Годы обучения</th>
+      </tr>
+    </thead>
+    <tbody class="tbody">
+      
+
+    </tbody>
+  </table>
+  <script src="data-engine.js"></script>
+  <script src="ui.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
