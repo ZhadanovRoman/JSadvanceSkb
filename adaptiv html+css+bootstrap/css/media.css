@@ -1,0 +1,581 @@
+
+@media (max-width: 1200px) and (min-width: 1000px) {
+  .hero-titel {
+
+    font-size: 50px;
+    line-height: 50px;
+  }
+  
+  
+  
+
+}
+
+@media (max-width: 1000px) and (min-width: 769px) {
+
+  .hero-titel {
+
+    font-size: 50px;
+    line-height: 50px;
+  }
+ .advan-help-block{
+  flex-wrap: wrap;
+ }
+  
+}
+
+  
+  
+@media (max-width: 768px) and (min-width: 577px) {
+  
+ 
+.hero-container{
+  padding-top: 120px;
+}
+
+    .hero-titel {
+      margin-bottom: 16px;
+      font-size: 50px;
+      line-height: 50px;
+    }
+  
+    .hero-text {
+      width: 85%;
+      margin-bottom: 60px;
+    }
+  .hero-btn{
+    width: 73%;
+    margin-bottom: 135px;
+  }
+  .hero-descr{
+  padding-top: 10px;
+  }
+.hero-img{
+  align-items: flex-start;
+ 
+}
+
+
+/* adv */
+.advantage{
+  padding-bottom: 74px;
+}
+.advantage-cont{
+  width: 100%;
+ 
+}
+
+.advan-titel{
+  width: 90%;
+  margin-right: 0;
+}
+
+.advan-help{ 
+  flex-wrap: wrap;
+}
+
+.advan-help-block{
+
+  
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.advan-svg{
+margin-bottom: 8px;
+}
+.aht2{
+  padding-top: 0;
+  margin-top: -5%;
+}
+
+/* teachers */
+.teachers{
+  padding-bottom: 21px;
+}
+.teachers-box{
+  margin-bottom: 26px;
+}
+.teacher-name{
+  margin-bottom: 6px;
+}
+
+  /* courses */
+ 
+  
+
+ 
+  .courses-txt-cont{
+    width: 100%;
+    margin-bottom: 12%;
+  }    
+  .courses-pic{
+    margin-bottom: 8%;
+  }
+
+  .courses-text{
+    width: 91.5%;
+    padding-left: 8%;
+  }
+  .courses-name{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .courses-btn{
+    width: 72%;
+  }
+  .footer-links{
+    display: inline-flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 24%;
+  }
+}
+@media (max-width: 768px) and (min-width: 0px){
+  .hero-img{
+    display: none;
+  }
+}
+@media (max-width: 768px) and (min-width: 471px){
+  
+  .header{
+    padding-bottom: 32px;
+   }
+  .header-col-first{
+    display: inline-flex;
+    justify-content: center;
+    margin-bottom: 31px;
+  }
+  .logo-lab{
+    margin-right: 0;
+    width: 94px;
+    height: 21px;
+  }
+  .header-col-second{
+    display: inline-flex;
+    justify-content: center;
+  }
+ .header-nav{
+  width: 92%;
+  display: inline-flex;
+  justify-content: space-between;
+ }
+  .header-link{
+    margin: 0;
+  }
+}
+
+  
+@media (max-width: 576px) and (min-width: 471px) {
+  
+
+  /*  hero  */
+
+
+.hero{
+  padding-top: 77px;
+  padding-bottom: 134px;
+}
+.hero-content{
+  justify-content: start;
+  
+}
+.hero-descr{
+  padding-top: 0;
+  
+}
+ 
+  .hero-titel{
+    width: 70%;
+    margin-bottom: 18px;
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .hero-img {
+    display: none;
+  }
+.hero-text{
+  width: 65%;
+  margin-bottom: 60px;
+}
+  .hero-btn{
+    margin: 0;
+    width: 53%;
+  }
+
+
+/* adv */
+.advantage{
+  padding-bottom: 56px;
+}
+.advantage-cont{
+  width: 100%;
+
+}
+.advan-pic{
+  margin-top: 0px;
+  margin-right: 30px;
+}
+.advan-titel{
+ margin-right: 70%;
+}
+
+
+.advan-help{
+  display: inline-flex;
+ margin-bottom: 0;
+}
+.advan-svg{
+  margin-bottom: 5%;
+}
+
+.advan-help-block{
+  flex-wrap: wrap;
+  
+}
+
+/*teach*/
+
+.teachers-box{
+  margin-bottom: 23px;
+}
+
+.teacher-descr{
+  width: 100%;
+}
+
+
+/* */
+
+
+
+.courses-titel{
+  margin-bottom: 24px;
+}
+.courses-pic{
+  margin-bottom: 11%;
+}
+
+.courses-text{
+ 
+  padding-left: 12%;
+}
+.courses-descr{
+  width: 90%;
+  
+}
+.courses-name{
+  width: 90%;
+  line-height: 23.4px;
+  margin-bottom: 5px;
+}
+.courses-btn{
+  width: 90%;
+}
+.courses-txt-cont{
+  margin-bottom: 18%;
+}  
+
+.timer{
+ 
+  top: 1%;
+  right: 2%;
+}
+
+.footer-links{
+  display: inline-flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  width: 33%;
+}
+
+}
+
+ 
+@media (max-width: 530px) and (min-width: 0px){
+  .advan-pic{
+    display: none;
+  }
+}
+@media (max-width: 470px) and (min-width: 0px) {
+ .header{
+  padding-top: 31px;
+  padding-bottom: 29px;
+ }
+  .burger{
+    margin-right: 1.8%;
+   
+  display: inline-block;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  background: #3F2AFF;
+  z-index: 200;
+  border:none;
+  
+}
+.burger-line {
+  position: absolute;
+  width: inherit;
+  height: 2px;
+  padding: 0;
+  margin: 0;
+  right: 0;
+  background-color:#FFFFFF;
+  border-radius: 3px;
+}
+.burger-line:nth-child(1) {
+  top: 0%;
+}
+
+.burger-line:nth-child(2) {
+  top: 40%;
+  
+}
+
+.burger-line:nth-child(3) {
+  top: 77%;
+  
+}
+
+
+
+.burger--active .burger-line:nth-child(2) {
+  opacity: 0;
+}
+
+.burger--active .burger-line:first-child {
+  top: 50%;
+  transform: rotate(45deg);
+  transform-origin: center;
+  transition: transform 0.3s ease-in-out, top 0, 3s ease-in-out;
+}
+
+.burger--active .burger-line:last-child {
+  top: 50%;
+  transform: rotate(-45deg);
+  transform-origin: center;
+  transition: transform 0.3s ease-in-out, top 0, 3s ease-in-out;
+}
+
+  /* burger move */
+  .burger--active{
+    background: rgba(50, 103, 182, 0.868);
+  }
+  
+  .header-nav2 {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: -20px;
+    width: 200px;
+    height: 355px;
+    z-index: 100;
+    padding: 80px 5% 0 0;
+    margin-right: 0;
+    background: rgba(50, 103, 182, 0.868);
+    box-shadow: 0px 0px 50px 15px rgba(226, 190, 190, 0.868);
+    border-radius: 0px 0px 0px 16px;
+    overflow-y: auto;
+    visibility: hidden;
+    transform: translateX(-1%);
+    transition: visibility 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+
+  .header-list-item {
+    padding-right: 5%;
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .header-link {
+    font-size: 16px;
+    line-height: 19.5px;
+    margin-right: 0;
+    margin-bottom: 32px;
+    color: #FFFFFF;
+  }
+
+  .header-nav--active {
+    visibility: visible;
+    transform: none;
+  }
+/* burger end*/
+
+.header-row{
+  padding-top: 0;
+}
+.header-col-first{
+  position: relative;
+  display: inline-flex;
+  justify-content: space-between;
+  
+}
+.logo-lab{
+  width: 72px;
+  height: 16px;
+  
+}
+.header-col-second{
+  display: none;
+}
+.hero-content{
+  width: 100%;
+}
+
+  .hero-titel{
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 4px;
+  }
+  .hero-text{
+    width: 100%;
+    font-size: 16px;
+    line-height: 20.8px;
+    margin-bottom: 46px;
+  }
+  .hero-descr {
+    padding-top: 50px;
+    
+  }
+  .hero-btn{
+    width:74%;
+    height:60px;
+    font-size: 16px;
+    line-height: 18.75px;
+    padding: 0;
+    margin-bottom: 50px;
+  }
+
+  
+
+  .advantage{
+    padding-top: 50px;
+    padding-bottom: 22px;
+  }
+
+
+  
+.advan-titel{
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 0;
+}
+.advan-text{
+  margin: 0;
+}
+.advan-pic{
+  display: none;
+}
+.advantage-cont{
+  margin-left: 0;
+  width: 100%;
+}
+
+.advan-help{
+  width:inherit;
+  flex-direction: column;
+  
+}
+.advan-help-block{
+  
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 30px;
+  
+}
+.avantage-box{
+  margin-bottom: 3px;
+}
+.advan-help-text{
+  
+  margin-bottom: 0;
+  padding-top: 2px;
+}
+.advan-svg{
+  margin-right: 12%;
+  margin-bottom: 0;
+}
+
+
+
+.teachers{
+padding-top: 48px;
+padding-bottom: 22px;
+}
+
+.teachers-box{
+  margin-bottom: 24px;
+}
+.teachers-titel{
+  padding-left: 0;
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 25px;
+}
+.teach-pic{
+  margin-bottom: 26px;
+}
+
+.teacher-descr{
+  width: 97%;
+}
+
+
+/* courses*/
+.courses{
+  padding-top: 45px;
+}
+.courses-titel{
+  
+  font-size: 20px;
+  line-height: 20px;
+padding-left: 1.5%;
+margin-bottom: 27px;
+}
+.courses-box{
+  justify-content: center;
+}
+.courses-name{
+  width: 72%;
+font-size: 18px;
+line-height: 23.04px;
+}
+.courses-text{
+  padding-left: 10%;
+  height: min-content;
+  min-height: 440px;
+}
+.courses-descr{
+  width: 94%;
+  font-size: 16px;
+  line-height: 24px;
+}
+.courses-pic{
+  margin-bottom: 10%;
+}
+.courses-txt-cont{
+  margin-bottom: 0%;
+      }
+.courses-btn{
+  width: 80%;
+}
+.timer{
+  top: 2%;
+  right: 2.7%;
+}
+
+
+      .footer-top{
+        margin-top: 0;
+      }
+      .footer-links{
+        width: 56%;
+      }
+}
