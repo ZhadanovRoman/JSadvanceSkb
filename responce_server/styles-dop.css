@@ -1,0 +1,46 @@
+:root{
+    --whiteColor: #f6f5f5;
+    --fontSize25: 25px;
+    --fontSize50: 50px;
+}
+.sw-episodes-list1{
+    width: 100%;
+    padding: 2% 10% 20% 10%;
+    background-image: url(./img/galaxy-night-view.jpg);
+    background-size: cover;
+}
+.dop-titel-js{
+color: var(--whiteColor);
+font-size: var(--fontSize50);
+
+}
+.dop-btn-js{
+    padding: 1%;
+    font-size: var(--fontSize25);
+    color:var(--whiteColor);
+    border: 1px solid var(--whiteColor);
+    border-radius: 10px;
+    background-color: rgba(58, 131, 103, 0.496);
+}
+.dop-btn-js:hover{
+    border: 1px solid rgba(33, 57, 48, 0.496);
+}
+.dop-openingCrawl-js{
+    width: 50%;
+    height: max-content;
+    font-size: var(--fontSize25);
+    color: var(--whiteColor);
+}
+.dop-title-planet-js{
+    font-size: 35px;
+    color: var(--whiteColor);
+}
+.dop-title-species-js{
+    font-size: 35px;
+    color: var(--whiteColor);
+}
+.dop-itemLi-js{
+    list-style-type: none;
+font-size: var(--fontSize25);
+color: var(--whiteColor);
+}

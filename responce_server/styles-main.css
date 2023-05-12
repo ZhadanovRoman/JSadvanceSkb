@@ -1,0 +1,22 @@
+.sw-episodes-list{
+    width: 100%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    background-image: url(./img/3d-space-scene.jpg);
+    background-size: cover;
+}
+.menu-box-js{
+    width: 50%;
+    height: max-content;
+    margin: 0 auto;
+}
+.link-main-js{
+    color: rgb(229, 236, 236);
+    font-size: 50px;
+    line-height: 60px;
+}
+.link-main-js:hover{
+    margin-bottom: 50px;
+    color:rgb(247, 249, 248);
+    border:1px solid rgb(253, 254, 254);
+}
