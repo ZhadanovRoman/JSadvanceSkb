@@ -1,0 +1,30 @@
+.card{
+    
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(229, 225, 220);
+    color : transparent;
+    text-align: center;
+    
+}
+.cartDone{
+    
+    color: black;
+    background: rgb(70, 178, 72);
+ 
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 450px;
+    height: 450px;
+    padding-top: 100px;
+   
+}
+.card-open{
+   color: black;
+    background: #b64c4c;
+}
