@@ -1,4 +1,4 @@
-# JSadvanceSkb
+### JSadvanceSkb
 practice JS
-Работы с курса JS и React.js
+#Работы с курса JS и React.js
 ____
