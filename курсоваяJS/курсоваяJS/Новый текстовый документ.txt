@@ -1,4 +1,1 @@
-cd Desktop/курсоваяJS
-cd frontend-pro
-cd crm-backend
-node index
+
