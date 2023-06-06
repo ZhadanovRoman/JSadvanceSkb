@@ -2,4 +2,4 @@
 practice JS
 #Работы с курса JS и React.js
 ____
-<img src="https://yapx.ru/album/WHnW4">
+<img src="https://i.yapx.ru/WHnW5.bmp">
