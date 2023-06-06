@@ -14,7 +14,7 @@ ____
 
 ___________
 
-Игра "Пары"- написана на ООП(папка JS Advance OOP)
+Игра "Пары"- написана на ООП(*папка JS Advance OOP)
 <img src="https://i.yapx.ru/WHoJN.bmp">
 
 _________
