@@ -6,9 +6,9 @@ ____
    + добавлять,изменять,удалять данные клиента. Все действия происходять взаимодействуя с БД
    + сортировка списка клиентов: по дате/времени добавления,по алфавиту и по id клиента.
    + поиск клиента из списка (метод фильтрации)
-<img src="https://i.yapx.ru/WHnW5.bmp">
-<img src="https://i.yapx.ru/WHnzX.bmp">
-<img src="https://i.yapx.ru/WHn1G.bmp">
+<img src="https://i.yapx.ru/WHnW5m.bmp"> <img src="https://i.yapx.ru/WHu7um.bmp">
+<img src="https://i.yapx.ru/WHn1Gm.bmp"> <img src="https://i.yapx.ru/WHn1G.bmp">
+<img src="https://i.yapx.ru/WHu7wm.bmp">
 
 ___________
 
