@@ -9,8 +9,8 @@ ____
    
    
 <img src="https://i.yapx.ru/WHnW5m.bmp"> <img src="https://i.yapx.ru/WHu7um.bmp">
-<img src="https://i.yapx.ru/WHn1Gm.bmp"> <img src="https://i.yapx.ru/WHn1G.bmp">
-<img src="https://i.yapx.ru/WHu7wm.bmp">
+<img src="https://i.yapx.ru/WHn1Gm.bmp"> <img src="https://i.yapx.ru/WHu7wm.bmp">
+
 
 ___________
 
