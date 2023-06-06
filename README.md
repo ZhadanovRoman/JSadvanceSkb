@@ -9,7 +9,8 @@ ____
 <img src="https://i.yapx.ru/WHnW5.bmp">
 <img src="https://i.yapx.ru/WHnzX.bmp">
 <img src="https://i.yapx.ru/WHn1G.bmp">
-____
+
+___________
 
 Игра "Пары"- написана на ООП(папка JS Advance OOP)
 <img src="https://i.yapx.ru/WHoJN.bmp">
