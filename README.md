@@ -8,7 +8,7 @@ ____
    + поиск клиента из списка (метод фильтрации)
    
    
-<img src="https://i.yapx.ru/WHnW5m.bmp"> <img src="https://i.yapx.ru/WHu7um.bmp">
+<img src="https://i.yapx.ru/WHu7u.bmp"> <img src="https://i.yapx.ru/WHu7um.bmp">
 <img src="https://i.yapx.ru/WHn1Gm.bmp"> <img src="https://i.yapx.ru/WHu7wm.bmp">
 
 
