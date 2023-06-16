@@ -8,7 +8,7 @@ ____
    + поиск клиента из списка (метод фильтрации)
    
    
-<img src="https://drive.google.com/file/d/1ouKzh_rUFBG1s4_T5_ubyzTev5IOLY81/view?usp=drive_link">
+<img src="https://i.pinimg.com/564x/83/4f/03/834f031f6d6013d6d71867186e81fb2f.jpg">
 <img src="https://i.yapx.ru/WHu7um.bmp">
 <img src="https://i.yapx.ru/WHn1Gm.bmp"> <img src="https://i.yapx.ru/WHu7wm.bmp">
 
