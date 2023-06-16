@@ -17,7 +17,7 @@ ____
 ___________
 
 Игра "Пары"- написана на ООП(*папка JS Advance OOP)
-<img src="https://i.yapx.ru/WHoJN.bmp">
+<img src="https://github.com/ZhadanovRoman/JSadvanceSkb/blob/dev/pictures/oop-dubles.bmp">
 
 _________
 
@@ -29,7 +29,8 @@ ___________
 Приложение для поиска персонажей, кораблей и планет из Звездных войн с помощью Star
 Wars API с возможностью выбора категории поиска. Написано на чистом JS.
 
-______
+<img src="https://github.com/ZhadanovRoman/JSadvanceSkb/blob/dev/pictures/promiseAll.bmp"> <img src="https://github.com/ZhadanovRoman/JSadvanceSkb/blob/dev/pictures/promiseAll2.bmp">
+_______
 
 Инструмент, позволяющий вывести полную цепочку прототипов для любого класса, который содержится в глобальном объекте window
 
