@@ -9,8 +9,9 @@ ____
    
    
 <img src="https://github.com/ZhadanovRoman/JSadvanceSkb/blob/dev/pictures/crm1.bmp">
-<img src="https://i.yapx.ru/WHu7um.bmp">
-<img src="https://i.yapx.ru/WHn1Gm.bmp"> <img src="https://i.yapx.ru/WHu7wm.bmp">
+<img src="https://github.com/ZhadanovRoman/JSadvanceSkb/blob/dev/pictures/crm2.bmp">
+<img src="https://github.com/ZhadanovRoman/JSadvanceSkb/blob/dev/pictures/crm3.bmp"> 
+<img src="https://github.com/ZhadanovRoman/JSadvanceSkb/blob/dev/pictures/crm4.bmp">
 
 
 ___________
