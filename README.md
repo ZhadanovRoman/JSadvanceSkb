@@ -10,7 +10,7 @@ ____
    
 <img  src="https://github.com/ZhadanovRoman/JSadvanceSkb/blob/dev/pictures/crm1.bmp"> <img  src="https://github.com/ZhadanovRoman/JSadvanceSkb/blob/dev/pictures/crm2.bmp">
 
-<img style="width:450px" src="https://github.com/ZhadanovRoman/JSadvanceSkb/blob/dev/pictures/crm3.bmp"> <img style="width:450px" src="https://github.com/ZhadanovRoman/JSadvanceSkb/blob/dev/pictures/crm4.bmp">
+<img  src="https://github.com/ZhadanovRoman/JSadvanceSkb/blob/dev/pictures/crm3.bmp"> <img  src="https://github.com/ZhadanovRoman/JSadvanceSkb/blob/dev/pictures/crm4.bmp">
 
 
 
