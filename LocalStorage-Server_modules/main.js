@@ -184,7 +184,7 @@ localStorage.setItem('addItem', JSON.stringify(itemList));
  import {saveDataServ} from './main-second.js'
 
    function createTodoApp(owner){
-      let todoAppTitel = craeteAppTitel(titel+' '+owner.charAt(5));
+      let todoAppTitel = craeteAppTitel(titel);
       let todoItemForm = createTodoItemForm();
       
       container.append(todoAppTitel);
