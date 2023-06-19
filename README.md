@@ -36,9 +36,11 @@ _______
 
 папка *response_serve
 
-<img src="https://github.com/ZhadanovRoman/JSadvanceSkb/blob/dev/pictures/local.bmp"> <img src="https://github.com/ZhadanovRoman/JSadvanceSkb/blob/dev/pictures/server.bmp">
+
 _________
 
 Приложение ToDoList с переключающимися хранилищами(сервер/локальное хранилище). Работа с модулями
 
 папка *LocalStorage-Server_modules
+
+<img src="https://github.com/ZhadanovRoman/JSadvanceSkb/blob/dev/pictures/local.bmp"> <img src="https://github.com/ZhadanovRoman/JSadvanceSkb/blob/dev/pictures/server.bmp">
