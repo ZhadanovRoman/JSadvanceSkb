@@ -379,6 +379,10 @@ border-radius: 0;
 /*modalJS-end*/
 
 /*contact-tippy*/
+.tippy-box {
+    
+    border-radius: 0;
+  }
 .contact-box-js{
     position: relative;
     width: max-content;
@@ -400,12 +404,13 @@ border-radius: 0;
     position: absolute;
     bottom:  130%;
     right: -220%;
+   
     overflow: auto;
-    width: 130px;
+    width: max-content;
     height: max-content;
-    padding: 25% 0;
+    padding: 25% 30%;
     background-color: var(--black33);
-    text-align: center;
+   
     color: var(--whiteFF);
     font-family: 'OpenSans';
     font-weight: 700;
