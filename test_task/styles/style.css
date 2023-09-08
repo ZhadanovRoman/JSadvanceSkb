@@ -1,0 +1,148 @@
+:root {
+    --White: #FFF;
+    --Green: #6ABF4B;
+    --Blue: #3877EE;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: local('ArialMT'),
+        url('../fonts/ArialMT.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.main-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/mainBackground.png);
+
+    background-size: 100% 100%;
+    background-position: center;
+    z-index: 100;
+}
+
+.main-container::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+    background: #020F20;
+    z-index: -1;
+}
+
+.btn-style {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    z-index: 9999;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    font-size: 0;
+    background-image: url(../img/CircleBlue.svg)
+}
+
+.btn-span-hor {
+    display: none;
+    content: '';
+    width: 10px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 39%;
+    background: var(--White);
+    pointer-events: none;
+    z-index: -1;
+}
+
+.btn-style:nth-child(3),
+.btn-style:nth-child(5),
+.btn-style:nth-child(7),
+.btn-style:nth-child(10) {
+    background-image: url(../img/CircleGreen.svg)
+}
+
+.btn-style:nth-child(1) {
+    top: 21%;
+    left: 71.5%;
+}
+
+.btn-style:nth-child(2) {
+    top: 26%;
+    left: 30%;
+}
+
+.btn-style:nth-child(3) {
+    top: 38%;
+    left: 59.8%;
+}
+
+.btn-style:nth-child(4) {
+    top: 44%;
+    left: 74%;
+}
+
+.btn-style:nth-child(5) {
+    top: 45%;
+    left: 35.5%;
+}
+
+.btn-style:nth-child(6) {
+    top: 58.2%;
+    left: 56.5%;
+}
+
+.btn-style:nth-child(7) {
+    top: 62%;
+    left: 68%;
+}
+
+.btn-style:nth-child(8) {
+    top: 66%;
+    left: 83%;
+}
+
+.btn-style:nth-child(9) {
+    top: 66%;
+    left: 23%;
+}
+
+.btn-style:nth-child(10) {
+    top: 73%;
+    left: 57%;
+}
+
+
+
+.btn {
+    padding: 10px 15px 0 40px;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.1px;
+    color: var(--White);
+    width: max-content;
+    height: 28px;
+    border-radius: 40px;
+
+}
+
+.btn-blue-full {
+
+    background-image: url(../img/BlueFull.svg);
+    background: var(--Blue)
+}
+
+.btn-green-full {
+    background: var(--Green) !important;
+}
